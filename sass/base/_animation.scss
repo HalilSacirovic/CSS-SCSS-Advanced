@@ -1,0 +1,58 @@
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem)
+        
+    }
+
+
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInright {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+        /* mozemo cak koristiti animaciju Rotate(180deg ) Probaj ako si zaboravio da vidis kako ide */
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0) ; 
+    }
+}
+@keyframes moveInbottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+        /* mozemo cak koristiti animaciju Rotate(180deg ) Probaj ako si zaboravio da vidis kako ide */
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0) ; 
+    }
+}
+
+@keyframes logorotate {
+    0% {
+        opacity: 0;
+    
+    }
+
+    80% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 1 ;
+        
+    }
+}
